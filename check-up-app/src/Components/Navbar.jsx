@@ -2,8 +2,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'Payment', href: '/services', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Calendar', href: '#', current: false },
 ]
@@ -42,7 +42,7 @@ export default function Navbar() {
                     href={item.href}
                     aria-current={item.current ? 'page' : undefined}
                     className={classNames(
-                      item.current ? 'bg-pink-200 text-black-800' : 'text-black-300 hover:bg-pink-200 hover:text-black-800',
+                      item.current ? 'bg-pink-100 text-black-800' : 'text-black-300 hover:bg-pink-200 hover:text-black-800',
                       'rounded-md px-3 py-2 text-sm font-medium',
                     )}
                   >
