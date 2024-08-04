@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Services from './Pages/Services.jsx'
 import './index.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Billing from './Pages/Billing.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/billing" element={<Billing />} />
         <Route path="/setting" element={<App />} />
         <Route path="/contact" element={<App />} />
       </Routes>
