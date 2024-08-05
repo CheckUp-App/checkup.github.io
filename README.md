@@ -84,8 +84,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact Creators
   
-[Kevin Uduji - LinkedIn]([](https://www.linkedin.com/in/kevinuduji/))
-[Megan Osakwe - LinkedIn]([](https://www.linkedin.com/in/meganosakwe/))
+[Kevin Uduji - LinkedIn]([(https://www.linkedin.com/in/kevinuduji/)])
+[Megan Osakwe - LinkedIn]([(https://www.linkedin.com/in/meganosakwe/)])
 
 ---
 
