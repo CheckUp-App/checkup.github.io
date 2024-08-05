@@ -31,8 +31,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/financial-health-insurance-tracker.git
-    cd financial-health-insurance-tracker
+    git clone https://github.com/your-username/checkup-app.git
+    cd checkup-app
     ```
 
 2. **Install Dependencies**:
@@ -57,7 +57,7 @@ Before you begin, ensure you have the following installed:
     yarn start
     ```
 
-    The app will be available at `http://localhost:3000`.
+    The app will be available at `http://localhost:5173`.
 
 ### Building the App
 
