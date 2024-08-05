@@ -83,9 +83,18 @@ This will create an optimized production build in the `build` directory.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact Creators
-  
-[Kevin Uduji - LinkedIn]([(https://www.linkedin.com/in/kevinuduji/)])
-[Megan Osakwe - LinkedIn]([(https://www.linkedin.com/in/meganosakwe/)])
+
+Kevin Uduji
+
+• [LinkedIn](https://www.linkedin.com/in/kevinuduji/)
+
+• [GitHub](https://github.com/kevinuduji)
+
+Megan Osakwe
+
+• [LinkedIn](https://www.linkedin.com/in/meganosakwe/)
+
+• [GitHub](https://github.com/megamind-28)
 
 ---
 
