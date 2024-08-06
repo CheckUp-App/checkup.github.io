@@ -1,0 +1,89 @@
+.facility-search-page {
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .section {
+    margin: 20px 0;
+  }
+  
+  .full-page {
+    height: calc(100vh - 96px); /* Adjusting height to fill the page minus the navbar height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .service-button, .provider-button, .action-button, .back-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ECBFDA;
+    cursor: pointer;
+    text-align: center;
+    width: auto; /* Adjusts the width to fit the text */
+  }
+  
+  .service-button.selected, .provider-button.selected {
+    border-color: #000;
+  }
+  
+  .facility-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .facility-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .facility-info {
+    flex: 3;
+  }
+  
+  .facility-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .facility-actions button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  
+  
