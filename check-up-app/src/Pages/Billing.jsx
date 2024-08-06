@@ -17,4 +17,4 @@ const Billing = () => {
   );
 }
 
-export default Billing;
+export default Billing
