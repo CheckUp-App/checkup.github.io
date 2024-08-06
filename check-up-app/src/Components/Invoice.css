@@ -1,134 +1,95 @@
 .invoice {
   width: 80%;
-  margin: 20px;
+  margin: 20px auto; /* Center horizontally and add margin */
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #FFF7FB;
- }
- 
- 
- 
- 
- 
- 
- .invoice-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
- }
- 
- 
- 
- 
- .company-info, .invoice-info {
-  margin-bottom: 20px;
- }
- 
- 
- .invoice-info p {
-  margin: 0;
- }
- 
- 
- h2 {
+}
+
+.invoice-header {
+  font-size: 2rem;
   text-align: center;
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.company-info, .invoice-info {
   margin-bottom: 20px;
- }
- 
- 
- table {
+}
+
+.invoice-info p {
+  margin: 0;
+}
+
+table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
- }
- 
- 
- table th, table td {
+}
+
+table th, table td {
   border: 1px solid #ddd;
   padding: 12px;
   text-align: left;
- }
- 
- 
- table th {
+}
+
+table th {
   background-color: #f2f2f2;
- }
- 
- 
- .item-column {
-  width: 30%; /* Increase item column width */
- }
- 
- 
- .price-column {
-  width: 11%; /* Decrease price column width */
- }
- 
- 
- input[type="text"], input[type="number"] {
+}
+
+.item-column {
+  width: 30%; /* Increased width for item column */
+}
+
+.price-column {
+  width: 11%; /* Decreased width for price column */
+}
+
+input[type="text"], input[type="number"] {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
- }
- 
- 
- button {
+  border: 1px solid #ddd;
+  border-radius: 3px; /* Rounded corners for inputs */
+}
+
+button {
   background-color: #ECBFDA;
   color: black;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
- }
- 
- 
- 
- 
- .add-item-button {
-  background-color: #ECBFDA; /* Change the background color */
-  color: black; /* Change the text color */
-  padding: 12px 24px; /* Adjust padding for size */
-  font-size: 16px; /* Adjust font size */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Add rounded corners */
-  cursor: pointer; /* Change cursor on hover */
- }
- 
- 
- 
- 
- button {
+  margin: 5px; /* Margin around buttons */
+}
+
+button:hover {
+  background-color: #d4a5b0; /* Slightly different hover color */
+}
+
+.add-item-button {
   background-color: #ECBFDA;
   color: black;
-  padding: 10px 20px; /* Padding */
-  border: none; /* No border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  margin: 5px; /* Margin around buttons */
- }
- 
- 
- .button-container {
-  text-align: right; /* Align button to the right */
-  margin-bottom: 20px; /* Add space below the button container */
- }
- 
- 
- .totals {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container {
   text-align: right;
- }
- 
- 
- .totals div {
+  margin-bottom: 20px;
+}
+
+.totals {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.totals div {
   margin-bottom: 10px;
- }
- 
- 
- .invoice-header {
-  font-size: 2rem; /* Adjust this value to your preferred size */
-  margin-bottom: 10px; /* Optional: Add margin if needed */
- }
- 
+}
+
   
