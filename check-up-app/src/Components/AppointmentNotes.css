@@ -1,0 +1,9 @@
+.appointment-notes {
+    /* Optional: Add styles for the container if needed */
+    padding: 20px;
+  }
+   .header {
+    font-size: 2rem; /* Adjust this value to increase or decrease the font size */
+    margin-bottom: 10px; /* Optional: Add margin if needed */
+  }
+ 

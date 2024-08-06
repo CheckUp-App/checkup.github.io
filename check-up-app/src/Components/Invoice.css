@@ -1,37 +1,134 @@
 .invoice {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .company-info, .invoice-info {
-    margin-bottom: 20px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f4f4f4;
-  }
-  
-  button {
-    padding: 8px 12px;
-    margin-top: 10px;
-  }
-  
-  .totals {
-    margin-top: 20px;
-  }
+  width: 80%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #FFF7FB;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .invoice-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ }
+ 
+ 
+ 
+ 
+ .company-info, .invoice-info {
+  margin-bottom: 20px;
+ }
+ 
+ 
+ .invoice-info p {
+  margin: 0;
+ }
+ 
+ 
+ h2 {
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ 
+ 
+ table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+ }
+ 
+ 
+ table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+ }
+ 
+ 
+ table th {
+  background-color: #f2f2f2;
+ }
+ 
+ 
+ .item-column {
+  width: 30%; /* Increase item column width */
+ }
+ 
+ 
+ .price-column {
+  width: 11%; /* Decrease price column width */
+ }
+ 
+ 
+ input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+ }
+ 
+ 
+ button {
+  background-color: #ECBFDA;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ 
+ 
+ 
+ 
+ .add-item-button {
+  background-color: #ECBFDA; /* Change the background color */
+  color: black; /* Change the text color */
+  padding: 12px 24px; /* Adjust padding for size */
+  font-size: 16px; /* Adjust font size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+ }
+ 
+ 
+ 
+ 
+ button {
+  background-color: #ECBFDA;
+  color: black;
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 5px; /* Margin around buttons */
+ }
+ 
+ 
+ .button-container {
+  text-align: right; /* Align button to the right */
+  margin-bottom: 20px; /* Add space below the button container */
+ }
+ 
+ 
+ .totals {
+  text-align: right;
+ }
+ 
+ 
+ .totals div {
+  margin-bottom: 10px;
+ }
+ 
+ 
+ .invoice-header {
+  font-size: 2rem; /* Adjust this value to your preferred size */
+  margin-bottom: 10px; /* Optional: Add margin if needed */
+ }
+ 
   
