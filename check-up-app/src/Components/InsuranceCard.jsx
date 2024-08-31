@@ -2,9 +2,9 @@ import React from 'react'
 
 const details = [
     {
-        first_name: 'Kevin',
-        last_name: 'Uduji',
-        email: 'jdoe@me.com',
+        first_name: 'Robert',
+        last_name: 'Downey',
+        email: 'rdjr@me.com',
         phone: '555-555-5555',
     },
 ]

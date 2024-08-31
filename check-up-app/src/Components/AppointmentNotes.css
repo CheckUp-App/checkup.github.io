@@ -1,0 +1,117 @@
+.appointment-notes {
+    width: 80%;
+    margin: 20px auto; /* Center horizontally and add margin */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #FFF7FB;
+  }
+  
+  .header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+  
+  .tags-selection {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    margin-bottom: 20px; /* Spacing between tag buttons and tags list */
+  }
+  
+  .tag-button {
+    background-color: #ECBFDA;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0; /* Vertical spacing between buttons */
+    cursor: pointer;
+    width: auto; /* Adjust width based on content */
+    max-width: 100%; /* Ensure it doesn’t exceed container width */
+    text-align: center; /* Center text within button */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+  }
+  
+  .tag-button:hover {
+    background-color: #d4a5b0; /* Slightly different hover color for better visibility */
+  }
+  
+  .tags-list {
+    display: flex;
+    flex-direction: column; /* Stack tags vertically */
+    align-items: center; /* Center tags horizontally */
+    margin-top: 10px; /* Spacing between tags list and content above */
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center; /* Center text and remove button vertically */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0; /* Vertical spacing between tags */
+  }
+  
+  .tag button {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    margin-left: 5px; /* Space between tag text and remove button */
+  }
+  
+  .custom-notes {
+    margin-top: 20px;
+  }
+  
+  .custom-notes h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .custom-notes input[type="text"] {
+    width: calc(100% - 22px); /* Adjust width to fit with padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .custom-notes button {
+    display: block;
+    margin: 10px auto; /* Center button horizontally */
+    background-color: #ECBFDA;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-notes button:hover {
+    background-color: #d4a5b0; /* Slightly different hover color for better visibility */
+  }
+  
+  .notes-list {
+    display: flex;
+    flex-direction: column; /* Stack notes vertically */
+    align-items: center; /* Center notes horizontally */
+  }
+  
+  .note {
+    display: flex;
+    align-items: center; /* Center text and remove button vertically */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0; /* Vertical spacing between notes */
+  }
+  
+  
+  
+  
+  
