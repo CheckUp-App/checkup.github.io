@@ -19,7 +19,6 @@ const headercss = 'text-3xl subheaderstyle text-gray-900 sm:text-4xl pb-6 border
 
 export default function UpcomingAppointments() {
   return (
-
     <div className="purple-bg py-16 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 

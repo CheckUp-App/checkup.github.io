@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Services from './Pages/Services.jsx'
+import FindProviders from './Pages/FindProviders/FindProviders'
 import './index.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -10,10 +10,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/setting" element={<App />} />
-        <Route path="/contact" element={<App />} />
+        <Route path="/find-providers" element={<FindProviders />} />
+        {/* <Route path="/setting" element={<App />} />
+        <Route path="/profile" element={<App />} /> */}
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
