@@ -1,24 +1,33 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useLocation } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
-  { name: 'Find Provideres', href: '/find-providers', current: true },
-  // { name: 'Projects', href: '#', current: false },
-  // { name: 'Calendar', href: '#', current: false },
-]
+  { name: 'Find Providers', href: '/find-providers', current: false },
+  { name: 'Verify Your Insurance', href: '/verify-insurance', current: false },
+  { name: 'Book An Appointment', href: '/book-appointment', current: false },
+  { name: 'List Your Practice', href: '/list-your-practice', current: false },
+];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 export default function Navbar() {
+  const location = useLocation();
+
+  // Update the current property based on the current path
+  const updatedNavigation = navigation.map(item => ({
+    ...item,
+    current: location.pathname === item.href,
+  }));
+
   return (
-    <Disclosure as="nav" className=" w-screen" style={{ backgroundColor: '#FFF7FB' }}>
-      <div className=" px-2 sm:px-6 lg:px-8">
+    <Disclosure as="nav" className="w-screen" style={{ backgroundColor: '#FFF7FB' }}>
+      <div className="px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-            {/* Mobile menu button*/}
             <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
               <span className="absolute -inset-0.5" />
               <span className="sr-only">Open main menu</span>
@@ -36,7 +45,7 @@ export default function Navbar() {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                {navigation.map((item) => (
+                {updatedNavigation.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
@@ -102,7 +111,7 @@ export default function Navbar() {
 
       <DisclosurePanel className="sm:hidden">
         <div className="space-y-1 px-2 pb-3 pt-2">
-          {navigation.map((item) => (
+          {updatedNavigation.map((item) => (
             <DisclosureButton
               key={item.name}
               as="a"
@@ -121,3 +130,5 @@ export default function Navbar() {
     </Disclosure>
   )
 }
+
+
